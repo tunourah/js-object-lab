@@ -10,7 +10,7 @@ const user = {
     address: {
         street: "1234",
         city: {
-            name: "Riyadh",
+            name: "Aldilam",
             zip: 12345,
         },
         country: "KSA",
@@ -30,7 +30,7 @@ console.log("print the user id after update :", user.id);
 
 //4
 delete user.email;
-console.log("print the user email after delete :", user.email);
+console.log("print the user email after delete :", user);
 
 //5
 user.avalable = true;
@@ -43,7 +43,7 @@ console.log("print the user address :", user.address);
 console.log("print the user city name :", user.address.city.name);
 
 //8
-console.log("print the user skills index 2 :", user.skills[1]);
+console.log("print the user skills index 2 :", user.skills[2]);
 
 //9
 console.log("print the user skills  :", user.skills.join(" , "));
