@@ -118,6 +118,6 @@ console.log("Does every character have mass more than 40?", characters.map((elem
 
 console.log("-Is every character shorter than 200? ", characters.map((element) => element.height < 200));
 
-console.log("Is there at least one character with blue eyes?", characters.map((element) => element.eye_color === "blue"));
+console.log("Is there at least one character with blue eyes?", characters.some((element) => element.eye_color === "blue"));
 
-console.log("Is there at least one character taller than 210?", characters.map((element) => element.height > 210));
+console.log("Is there at least one character taller than 210?", characters.some((element) => element.height > 210));
