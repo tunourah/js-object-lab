@@ -114,9 +114,9 @@ console.log(" Sort by mass (low to high) :", characters.sort((a, b) => a.mass - 
 
 console.log("Sort by height (high to low) :", characters.sort((a, b) => b.height - a.height));
 
-console.log("Does every character have mass more than 40?", characters.map((element) => element.mass > 40));
+console.log("Does every character have mass more than 40?", characters.every((element) => element.mass > 40));
 
-console.log("-Is every character shorter than 200? ", characters.map((element) => element.height < 200));
+console.log("-Is every character shorter than 200? ", characters.every((element) => element.height < 200));
 
 console.log("Is there at least one character with blue eyes?", characters.some((element) => element.eye_color === "blue"));
 
