@@ -34,7 +34,7 @@ console.log("print the user email after delete :", user);
 
 //5
 user.avalable = true;
-console.log("print the user avalable after update :", user.avalable);
+console.log("print the user avalable after update  by callling the function:",  user.check());
 
 //6
 console.log("print the user address :", user.address);
