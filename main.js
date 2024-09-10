@@ -4,7 +4,12 @@ const user = {
     id: 1,
     avalable: false,
     check : function ()  {
-        return this.avalable;
+        if (this.avalable === true) {
+            return "the user is avalable";
+        } else {
+            return "the user is not avalable";
+        }
+     
     }, 
 
     address: {
